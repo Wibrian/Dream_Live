@@ -507,6 +507,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* bookmark hotel */
+.bookmark-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 350px;
+    border-radius: 5px;
+    background: rgb(232, 249, 253);
+    box-shadow: 5px 3px 10px 5px rgba(0,0,0,0.6);
+    text-align: center;
+    z-index: 0;
+    transition: all ease-in 0.15s;
+}
+
 .card-header {
   text-align: center;
   padding: 25px 10px;
@@ -571,6 +584,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 30px;
     text-decoration: none;
     padding: 10px 5px;
+}
+
+.bookmark-item:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: translate(0px, -3px) scale(1.02);
 }
 
 /* no-favorite hotel */

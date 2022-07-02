@@ -39,8 +39,8 @@ const HotelDetail = (hotel) => `
 `;
 
 const HotelBookmark = (hotel) => `
-<article class="post-item">
-
+<article class="bookmark-item">
+  
     <div class="card-header">  
       <h2 class="detail-nama">
         <div class="grid-city-bookmark">
