@@ -17,7 +17,7 @@ const HotelDetail = (hotel) => `
           </div>
         </div>
       </div>
-      </div>
+    </div>
       
       <div class="hotel__description">
         <h3>Current Place</h3>
@@ -32,8 +32,6 @@ const HotelDetail = (hotel) => `
           <p class="p-padding">${hotel.propertyDescription.address.fullAddress}</p>
         </div>
       </div>
-    </div>
-  </div>
   <div class="description-detail">
 
   </div>
@@ -41,27 +39,31 @@ const HotelDetail = (hotel) => `
 `;
 
 const HotelBookmark = (hotel) => `
-<article class="hotel-bookmark">
-    <div class="detail-info">  
-      <h2 class="detail-nama"></h2>
-      <p></p>
+<article class="post-item">
+
+    <div class="card-header">  
+      <h2 class="detail-nama">
         <div class="grid-city-bookmark">
           <div class="city-bookmark">
-          <a href="${`/#/detail/${hotel.id}`}"><div class="bookmark-title">${hotel.hotels.propertyDescription.name}</div></a>
+            <a href="${`/#/detail/${hotel.id}`}"><div class="bookmark-title">${hotel.hotels.propertyDescription.name}</div></a>
           </div>
         </div>
-      </div>
-      <h4>${hotel.hotels.propertyDescription.address.cityName}</h4>
-      <p class="p-padding"></p>
-      <h4>${hotel.hotels.propertyDescription.address.countryName}</h4>
-      <p class="p-padding"></p>
-      <h4>${hotel.hotels.propertyDescription.address.provinceName}</h4>
-      <p class="p-padding"></p>
+      </h2>
     </div>
-    <div id="likeButtonContainer"></div>
-  <div class="description-detail">
-
-  </div>
+    <div class="bookmark-info">
+      <h4>
+      <p class="bookmard-padding">${hotel.hotels.propertyDescription.address.cityName}</p>
+      </h4>
+      <h4>
+      <p class="bookmard-padding">${hotel.hotels.propertyDescription.address.countryName}</p>
+      </h4>
+      <h4>      
+      <p class="bookmard-padding">${hotel.hotels.propertyDescription.address.provinceName}</p>
+      </h4>
+      <div class="card-body">
+        <a href="${`/#/detail/${hotel.id}`}" class="btn">Read more</a>
+      </div>
+    </div>
 </article>
 `;
 
