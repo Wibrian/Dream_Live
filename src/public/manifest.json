@@ -1,7 +1,7 @@
 {
     "name": "Dream Live Lite App",
     "short_name": "Dream Live Lite",
-    "description": "Dream Live is a resto application for Groove Resto. It is a mobile application that allows users to order food and drinks from the Groove Resto.",
+    "description": "Dream Live is a catalogue hotel application. It is a mobile application that allows users to see reference hotel from the application.",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "rgb(148, 106, 43)",
