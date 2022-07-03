@@ -2,7 +2,7 @@ const HotelDetail = (hotel) => `
 <article class="hotel-detail">
     <div class="detail-info">
       <div class="detail-title-hotel">
-        <h2 class="detail-nama">${hotel.propertyDescription.name}</h2>
+        <h2 tabindex="0" class="detail-nama">${hotel.propertyDescription.name}</h2>
         <div id="likeButtonContainer"></div>
       </div>
       <p></p>
@@ -115,7 +115,7 @@ const AboutUsPage = () => `
           </div>
         <div class="clear"></div>
       </div>
-      <h1 class="urgent-color">Our Team</h1> 
+      <h1 tabindex="0" class="urgent-color">Our Team</h1> 
       <div class="about"> 
       <div class="team">
           <div class="team-card">
@@ -129,8 +129,8 @@ const AboutUsPage = () => `
                 </div>
               </div>
             </div>
-            <p class="team-name">Johannes Valerian</p>
-            <p class="team-title">Web Developer</p>
+            <p tabindex="0" class="team-name">Johannes Valerian</p>
+            <p tabindex="0" class="team-title">Web Developer</p>
           </div>
           <div class="team-card">
             <div class="team-card-image">
@@ -144,8 +144,8 @@ const AboutUsPage = () => `
                 </div>
               </div>
             </div>
-            <p class="team-name">Kemal Yazid Fauzi</p>
-            <p class="team-title">Web Developer</p>
+            <p tabindex="0" class="team-name">Kemal Yazid Fauzi</p>
+            <p tabindex="0" class="team-title">Web Developer</p>
           </div>
 
           <div class="team-card">
@@ -160,8 +160,8 @@ const AboutUsPage = () => `
                 </div>
               </div>
             </div>
-            <p class="team-name">Wibrian Alfathan</p>
-            <p class="team-title">Web Developer</p>
+            <p tabindex="0" class="team-name">Wibrian Alfathan</p>
+            <p tabindex="0" class="team-title">Web Developer</p>
           </div>
 
           <div class="team-card">
@@ -176,8 +176,8 @@ const AboutUsPage = () => `
                 </div>
               </div>
             </div>
-            <p class="team-name">Yosua Hutabarat</p>
-            <p class="team-title">Web Developer</p>
+            <p tabindex="0" class="team-name">Yosua Hutabarat</p>
+            <p tabindex="0" class="team-title">Web Developer</p>
           </div>
 
           <div class="clearfix"></div>
