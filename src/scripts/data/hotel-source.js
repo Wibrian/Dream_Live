@@ -11,7 +11,7 @@ class HotelSource {
       },
     };
 
-    return fetch(apiEndpoint.LIST_RESTAURANT, options)
+    return fetch(apiEndpoint.LIST_HOTEL, options)
       .then((response) => response.json())
       .catch((err) => console.error(err));
   }
